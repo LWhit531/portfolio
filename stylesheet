@@ -1,0 +1,51 @@
+body {
+	background-image: url("https://pixabay.com/static/uploads/photo/2015/08/30/07/07/vintage-913877_960_720.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#header {
+	background-color: #F0F0D8;
+	font-family: Verdana;
+	opacity: 0.6;
+	text-align: right;
+	height: 80px;
+	width: auto;
+}
+#header h1 {
+	font-color: #FF6600;
+}
+#header h2 {
+	font-color: #FF9148;
+}
+#nav {
+	background-color: #990000;
+	opacity: 0.7;
+	width: auto;
+	height: 25px;
+}
+#nav.li {
+	vertical-align: inline;
+}
+#aboutme {
+	background-color: #F0F0D8;
+	text-align: center;
+	border-radius: 5px;
+	border-style: 5px, solid, #F0F0D8;
+	font-family: Verdana;
+	font-size: 16px;
+}
+#aboutme p {
+	margin: 25px;
+	padding: 25px;
+}
+#projects {
+	background-color: #F0F0D8;
+	text-align: center;
+	border-radius: 5px;
+	border-style: 5px, solid, #F0F0D8;
+	font-family: Verdana;
+}
+#projects table {
+	text-align: center;
+	font-color: #990000;
+}
