@@ -1,51 +1,104 @@
+/* http://www.color-hex.com/color-palette/13207 */
 body {
-	background-image: url("https://pixabay.com/static/uploads/photo/2015/08/30/07/07/vintage-913877_960_720.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-color: #000000;
 }
-#header {
-	background-color: #F0F0D8;
-	font-family: Verdana;
-	opacity: 0.6;
-	text-align: right;
-	height: 80px;
+#header {  /*tutorial for making this fade*/
+	height: 100px;
 	width: auto;
+	background-color: #222324;
+	text-align: right;
+	border-bottom: 5px solid #d7ff66;
 }
 #header h1 {
-	font-color: #FF6600;
+	font-family: Alegreya Sans SC;
+	font-size: 38px;
+	font-weight: 800;
+	color: #d7ff66;
 }
-#header h2 {
-	font-color: #FF9148;
+#header h3 {
+	font-family: Alegreya Sans SC;
+	font-size: 24px;
+	font-weight: 400;
+	color: #369b99;
 }
 #nav {
-	background-color: #990000;
-	opacity: 0.7;
+	height: 30px;
+	background-color: transparent;
 	width: auto;
-	height: 25px;
+	border-bottom: 3px solid #d7ff66;
 }
-#nav.li {
-	vertical-align: inline;
+#nav li {
+	display: inline;
+	float: right;
+}
+#nav button {
+	background-color: #369b99;
+	height: 25px;
+	border-style: 3px solid #ffffff;
+	border-radius: 3px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#nav a {
+	font-family: Julius Sans One;
+	font-style: bold italic;
+	color: #ffffff;
 }
 #aboutme {
-	background-color: #F0F0D8;
-	text-align: center;
-	border-radius: 5px;
-	border-style: 5px, solid, #F0F0D8;
-	font-family: Verdana;
-	font-size: 16px;
+	max-width: 700px;
+	width: 80%;
+	margin: auto;
+	border: 15px solid #369b99;
+	background-color: #ffffff;
 }
 #aboutme p {
-	margin: 25px;
-	padding: 25px;
+	font-family: Alegreya Sans SC;
+	font-size: 20px;
+	margin: 10px;
+	padding: 10px;
+}
+#aboutme hr {
+	color: #d7ff66;
+	width: 80%;
 }
 #projects {
-	background-color: #F0F0D8;
-	text-align: center;
-	border-radius: 5px;
-	border-style: 5px, solid, #F0F0D8;
-	font-family: Verdana;
+	max-width: auto;
+	margin: auto;
+	height: 400px;
+	border-top: 15px solid #369b99;
+	border-bottom: 15px solid #369b99;
+	background-color: #222324;
 }
-#projects table {
+#projects img {
+	display: inline;
+	padding: 15px;
+	margin: 30px;
+}
+#projects h2 { /*make these align better, centered under the pictures until a slider can be added.*/
+	display: inline;
 	text-align: center;
-	font-color: #990000;
+	padding: 20px;
+	margin: 90px;
+	font-family: Alegreya Sans SC;
+	font-weight: 800;
+	color: #d7ff66;
+}	
+.description { /*make these align better, centered under the pictures until a slider can be added.*/
+	background-color: #ffffff;
+	border: 3px solid #369b99;
+	width: 150px;
+	height: 100px;
+	float: left;
+	margin-left: 110px;
+	margin-right: 110px;
+	margin-top: 10px;
+}
+.description p {
+	font-family: Alegreya Sans SC;
+	font-size: 16px;
+	font-style: bold;
+	color: #000000;
+	text-align: center;
+	vertical-align: center;
+	margin: 5px;
 }
