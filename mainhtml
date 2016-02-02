@@ -17,7 +17,6 @@
 	</div>
 	<br>
 	<br>
-	<br>
 	<div id="aboutme">
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -35,25 +34,21 @@
 	<br>
 	<br>
 	<div id="projects">
-		<table>
-			<tr>
-				<td><img src="https://pixabay.com/static/uploads/photo/2014/09/25/10/10/board-games-460340_960_720.jpg" width= 300px, height= 150px></img></td>
-				<td><img src="https://pixabay.com/static/uploads/photo/2015/11/07/11/48/clock-1031503_960_720.jpg" width= 300px, height=150px></img></td>
-				<td><img src="https://pixabay.com/static/uploads/photo/2015/10/21/10/52/motivational-999247_960_720.jpg" width= 300px, height= 150px></img></td>
-				<td><img src="https://pixabay.com/static/uploads/photo/2015/11/05/08/21/geometry-1023846_960_720.jpg" width= 300px, height= 150px></img></td>
-			</tr>
-			<br>
-			<tr>
-				<td><h2>LGS Website</h2></td>
-				<td><h2>Pomodoro Clock</h2></td>
-				<td><h2>Random Quote Generator</h2></td>
-				<td><h2>JS Calculator<h2></td>
-			</tr>
-			<tr>
-				<td>Sample website for a board/card game shop.</td>
-				<td>Pomodoro clock made for FreeCodeCamp exercise.</td>
-				<td>Random quote generator made for FreeCodeCamp exercise.</td>
-				<td>Simple JavaScript calculator made for FreeCodeCamp exercise.</td>
-			</tr>
+		<img src="https://pixabay.com/static/uploads/photo/2014/09/25/10/10/board-games-460340_960_720.jpg" width= 300px, height= 150px>
+		<img src="https://pixabay.com/static/uploads/photo/2015/11/07/11/48/clock-1031503_960_720.jpg" width= 300px, height=150px></img>
+		<img src="https://pixabay.com/static/uploads/photo/2015/10/21/10/52/motivational-999247_960_720.jpg" width= 300px, height= 150px>
+		<img src="https://pixabay.com/static/uploads/photo/2015/11/05/08/21/geometry-1023846_960_720.jpg" width= 300px, height= 150px>
+		<br>
+		<h2>LGS Website</h2>
+		<h2>Pomodoro Clock</h2>
+		<h2>Random Quote Generator</h2>
+		<h2>JS Calculator<h2>
+		<br>
+		<p>Sample website for a board/card game shop.</p>
+		<p>Pomodoro clock made for FreeCodeCamp exercise.</p>
+		<p>Random quote generator made for FreeCodeCamp exercise.</p>
+		<p>Simple JavaScript calculator made for FreeCodeCamp exercise.</p>
+		<br>
+	</div>
 	</body>
 	</html>
